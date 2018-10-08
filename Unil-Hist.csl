@@ -100,6 +100,7 @@
         <text macro="artwork-description"/>
         <text macro="archive-location"/>
         <text macro="pages"/>
+        <text macro="number-of-volumes"/>
         <text macro="book-series"/>
         <text macro="url-web-documents-only"/>
       </group>
@@ -288,14 +289,11 @@
             <label variable="volume" form="short"/>
             <number variable="volume"/>
           </group>
-          <group delimiter="&#160;">
-            <number variable="number-of-volumes"/>
-            <choose>
-              <if variable="volume" match="none">
-                <label variable="number-of-volumes" form="short"/>
-              </if>
-            </choose>
-          </group>
+          <choose>
+            <if variable="volume">
+              <number variable="number-of-volumes"/>
+            </if>
+          </choose>
         </group>
       </if>
     </choose>
@@ -434,6 +432,16 @@
         </group>
       </else>
     </choose>
+  </macro>
+  <macro name="number-of-volumes">
+    <group delimiter="&#160;">
+      <number variable="number-of-volumes"/>
+      <choose>
+        <if variable="volume" match="none">
+          <label variable="number-of-volumes" form="short"/>
+        </if>
+      </choose>
+    </group>
   </macro>
   <macro name="locator">
     <group delimiter="&#160;">
