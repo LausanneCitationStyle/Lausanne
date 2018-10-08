@@ -77,7 +77,7 @@
       <group delimiter=", ">
         <text macro="creator"/>
         <text macro="title"/>
-        <group delimiter=": ">
+        <group delimiter=" ">
           <text macro="in"/>
           <group delimiter=", ">
             <text macro="container-creator"/>
