@@ -425,10 +425,16 @@
       <if variable="locator">
         <text macro="locator"/>
       </if>
-      <else>
+      <else-if variable="page">
         <group delimiter="&#160;">
           <label variable="page" form="short"/>
           <text variable="page"/>
+        </group>
+      </else-if>
+      <else>
+        <group delimiter="&#160;">
+          <text variable="number-of-pages"/>
+          <label variable="page" form="short"/>
         </group>
       </else>
     </choose>
