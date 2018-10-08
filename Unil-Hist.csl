@@ -34,14 +34,11 @@
     </date>
     <terms>
       <term name="cited" form="short">cit.</term>
-      <term name="page" form="short">
-        <single>p.</single>
-        <multiple>pp.</multiple>
-      </term>
       <term name="editor" form="short">
         <single>éd.</single>
         <multiple>éds.</multiple>
       </term>
+      <term name="page" form="short">p.</term>
       <term name="interviewer" form="verb">entretien réalisé par</term>
       <term name="letter">courrier</term>
       <term name="number-of-volumes" form="short">vol.</term>
