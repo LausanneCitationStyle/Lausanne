@@ -46,12 +46,12 @@
       <choose>
         <if position="ibid-with-locator">
           <group delimiter=", ">
-            <text term="ibid"/>
+            <text term="ibid" font-style="italic"/>
             <text macro="locator"/>
           </group>
         </if>
         <else-if position="ibid">
-          <text term="ibid"/>
+          <text term="ibid" font-style="italic"/>
         </else-if>
         <else-if position="subsequent">
           <text macro="subsequent-reference"/>
