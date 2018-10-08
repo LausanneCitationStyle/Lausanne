@@ -93,10 +93,8 @@
         <text macro="edition"/>
         <text macro="place"/>
         <text macro="publishing-house"/>
-        <group delimiter=" ">
-          <text macro="date"/>
-          <date variable="original-date" form="text" prefix="[" suffix="]"/>
-        </group>
+        <text macro="date"/>
+        <date variable="original-date" form="text" prefix="[1ère éd. " suffix="]"/>
         <text macro="artwork-description"/>
         <text macro="archive-location"/>
         <text macro="pages"/>
