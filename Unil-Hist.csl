@@ -111,7 +111,6 @@
       <text macro="creator-for-subsequent"/>
       <text macro="identifier-for-subsequent"/>
       <text macro="op-cit"/>
-      <date variable="issued" form="numeric" date-parts="year"/>
       <text macro="locator"/>
     </group>
   </macro>
