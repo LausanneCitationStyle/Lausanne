@@ -20,21 +20,25 @@ Plan d'attaque - cf. aussi doc/notes.md
 
 ## Modifications à apporter au style infoclio.ch
 
--   [ ] virgule après le nom de famille
--   [ ] nombre de pages (et tester cas de la double pagination romaine+arabe)
--   [ ] double point entre lieu et éditeur
--   [ ] collection indiquée différemment
--   [ ] et al à partir de **3** auteurs
--   [ ] éditeurs scientifiques et traducteurs manquent : Rabelais
--   [ ] date originale indiquée différemment
+-   [x] virgule après le nom de famille
+-   [x] nombre de pages (et tester cas de la double pagination romaine+arabe)
+-   [ ] que faire si l'entrée Zotero indique à la fois un nombre de pages et un nombre de volumes?
+-   [x] double point entre lieu et éditeur
+-   [x] collection indiquée différemment
+-   [x] et al à partir de **3** auteurs
+-   [x] éditeurs scientifiques manquent : Rabelais
+-   [ ] traducteurs manquent
+-   [x] date originale indiquée différemment
+-   [ ] -- mais comment différencier date originale (Montesquieu) VS première édition (Braudel)?
 -   [ ] édition indiquée différemment
 -   [ ] casse des titres anglais : automatisable?
--   [ ] position du nombre de volumes
--   [ ] «dir.» et pas «éd.»
--   [ ] chapitres de livres, articles de revues, etc: pagination avec un seul «p.» (et pas «pp.»)
+-   [x] position du nombre de volumes
+-   [ ] faut-il garder «vol. 2 / 3»?
+-   [x] «dir.» et pas «éd.»
+-   [x] chapitres de livres, articles de revues, etc: pagination avec un seul «p.» (et pas «pp.»)
 -   [ ] indication du numéro des revues
--   [ ] «in» sans double point pour les chapitres
+-   [x] «in» sans double point pour les chapitres
 -   [ ] prévoir cas avec 3 types d'«auteur»: auteur, auteur du livre, éditeur [exemple Vovelle in Louvet éd par Henri Coulet]
--   [ ] ibid en italique
--   [ ] op. cit. sans date
+-   [x] ibid en italique
+-   [x] op. cit. sans date
 -   [ ] ajouter le volume aussi pour les revues?
