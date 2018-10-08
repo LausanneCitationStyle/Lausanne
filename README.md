@@ -26,7 +26,7 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [ ] édition indiquée différemment
 -   [ ] casse des titres anglais : automatisable?
 -   [x] position du nombre de volumes
--   [ ] changer «vol. 2 / 3»
+-   [x] changer «vol. 2 / 3»
 -   [x] «dir.» et pas «éd.»
 -   [x] chapitres de livres, articles de revues, etc: pagination avec un seul «p.» (et pas «pp.»)
 -   [ ] indication du numéro des revues

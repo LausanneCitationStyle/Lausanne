@@ -86,7 +86,7 @@
               <text macro="container-information"/>
               <text macro="journal-volume"/>
             </group>
-            <text macro="volumes"/>
+            <text macro="volume"/>
           </group>
         </group>
         <text macro="type-description"/>
@@ -301,19 +301,12 @@
       </else-if>
     </choose>
   </macro>
-  <macro name="volumes">
+  <macro name="volume">
     <choose>
-      <if type="book chapter                 entry-encyclopedia entry-dictionary                 song motion_picture" match="any">
-        <group delimiter=" / ">
-          <group delimiter="&#160;">
-            <label variable="volume" form="short"/>
-            <number variable="volume"/>
-          </group>
-          <choose>
-            <if variable="volume">
-              <number variable="number-of-volumes"/>
-            </if>
-          </choose>
+      <if type="book chapter entry-encyclopedia entry-dictionary song motion_picture" match="any">
+        <group delimiter="&#160;">
+          <label variable="volume" form="short"/>
+          <number variable="volume"/>
         </group>
       </if>
     </choose>
@@ -460,14 +453,14 @@
     </choose>
   </macro>
   <macro name="number-of-volumes">
-    <group delimiter="&#160;">
-      <number variable="number-of-volumes"/>
-      <choose>
-        <if variable="volume" match="none">
+    <choose>
+      <if variable="volume" match="none">
+        <group delimiter="&#160;">
+          <number variable="number-of-volumes"/>
           <label variable="number-of-volumes" form="short"/>
-        </if>
-      </choose>
-    </group>
+        </group>
+      </if>
+    </choose>
   </macro>
   <macro name="locator">
     <group delimiter="&#160;">
