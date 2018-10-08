@@ -452,12 +452,12 @@
           <text variable="page"/>
         </group>
       </else-if>
-      <else>
+      <else-if variable="number-of-volumes" match="none">
         <group delimiter="&#160;">
           <text variable="number-of-pages"/>
           <label variable="page" form="short"/>
         </group>
-      </else>
+      </else-if>
     </choose>
   </macro>
   <macro name="number-of-volumes">

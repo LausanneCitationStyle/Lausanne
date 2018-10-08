@@ -13,8 +13,7 @@ Plan d'attaque - cf. aussi doc/notes.md
 
 -   [x] virgule après le nom de famille
 -   [x] nombre de pages (et tester cas de la double pagination romaine+arabe)
--   [ ] tester si plus de possibilités
--   [ ] si l'entrée Zotero indique à la fois un nombre de pages et un nombre de volumes : privilégier nb de volumes
+-   [x] si l'entrée Zotero indique à la fois un nombre de pages et un nombre de volumes : privilégier nb de volumes
 -   [x] double point entre lieu et éditeur
 -   [x] collection indiquée différemment
 -   [ ] supprimer l'indication de la collection
