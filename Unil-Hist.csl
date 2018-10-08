@@ -95,11 +95,11 @@
         <group delimiter=" ">
           <text macro="date"/>
           <date variable="original-date" form="text" prefix="[" suffix="]"/>
-          <text macro="book-series"/>
         </group>
         <text macro="artwork-description"/>
         <text macro="archive-location"/>
         <text macro="pages"/>
+        <text macro="book-series"/>
         <text macro="url-web-documents-only"/>
       </group>
       <text macro="url-non-web-documents"/>
