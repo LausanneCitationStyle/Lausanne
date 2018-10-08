@@ -21,7 +21,8 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [x] éditeurs scientifiques manquent : Rabelais
 -   [ ] traducteurs manquent
 -   [x] date originale indiquée différemment
--   [ ] -- mais comment différencier date originale (Montesquieu) VS première édition (Braudel)?
+-   [x] ne pas différencier date originale et première édition
+-   [ ] **faut-il garder la virgule entre la date et la date originale?**
 -   [ ] édition indiquée différemment
 -   [ ] casse des titres anglais : automatisable?
 -   [x] position du nombre de volumes

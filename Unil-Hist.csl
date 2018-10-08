@@ -97,7 +97,7 @@
           <text macro="publishing-house"/>
         </group>
         <text macro="date"/>
-        <date variable="original-date" form="text" prefix="[1ère éd. " suffix="]"/>
+        <date variable="original-date" form="text" prefix="[" suffix="]"/>
         <text macro="artwork-description"/>
         <text macro="archive-location"/>
         <text macro="pages"/>
