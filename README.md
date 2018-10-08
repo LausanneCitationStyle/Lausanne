@@ -16,7 +16,7 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [x] si l'entrée Zotero indique à la fois un nombre de pages et un nombre de volumes : privilégier nb de volumes
 -   [x] double point entre lieu et éditeur
 -   [x] collection indiquée différemment
--   [ ] supprimer l'indication de la collection
+-   [x] supprimer l'indication de la collection
 -   [x] et al à partir de **3** auteurs
 -   [x] éditeurs scientifiques manquent : Rabelais
 -   [ ] traducteurs manquent
