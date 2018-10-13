@@ -91,12 +91,14 @@
         </group>
         <text macro="type-description"/>
         <text macro="alt-publisher"/>
-        <text macro="edition"/>
         <group delimiter="&#160;: ">
           <text macro="place"/>
           <text macro="publishing-house"/>
         </group>
-        <text macro="date"/>
+        <group>
+          <text macro="date"/>
+          <text macro="edition"/>
+        </group>
         <date variable="original-date" form="text" prefix="[" suffix="]"/>
         <text macro="artwork-description"/>
         <text macro="archive-location"/>
@@ -374,14 +376,8 @@
       <if type="book chapter                 entry-dictionary entry-encyclopedia" match="any">
         <choose>
           <if is-numeric="edition">
-            <group delimiter="&#160;">
-              <number variable="edition" form="ordinal"/>
-              <label variable="edition"/>
-            </group>
+              <number variable="edition" vertical-align="sup"/>
           </if>
-          <else>
-            <text variable="edition"/>
-          </else>
         </choose>
       </if>
     </choose>

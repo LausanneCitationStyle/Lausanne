@@ -23,7 +23,8 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [x] date originale indiquée différemment
 -   [x] ne pas différencier date originale et première édition
 -   [ ] **faut-il garder la virgule entre la date et la date originale?**
--   [ ] édition indiquée différemment
+-   [x] édition indiquée différemment
+-   [ ] **que faire lorsque le champ édition contient des éléments non-numériques?** (proposition: ne rien afficher)
 -   [ ] casse des titres anglais : automatisable?
 -   [x] position du nombre de volumes
 -   [x] changer «vol. 2 / 3»
