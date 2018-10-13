@@ -25,7 +25,7 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [ ] **faut-il garder la virgule entre la date et la date originale?** (proposition: ne pas mettre de virgule)
 -   [x] édition indiquée différemment
 -   [ ] **que faire lorsque le champ édition contient des éléments non-numériques?** (proposition: ne rien afficher)
--   [ ] casse des titres anglais : automatisable?
+-   [x] casse des titres anglais : automatisable? **oui: fait pour les livres**
 -   [x] position du nombre de volumes
 -   [x] changer «vol. 2 / 3»
 -   [x] «dir.» et pas «éd.»

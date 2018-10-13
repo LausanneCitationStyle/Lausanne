@@ -149,7 +149,7 @@
   <macro name="title">
     <choose>
       <if type="book thesis graphic" match="any">
-        <text variable="title" font-style="italic"/>
+        <text variable="title" font-style="italic" text-case="title"/>
       </if>
       <else-if type="article article-magazine article-newspaper article-journal entry entry-dictionary entry-encyclopedia report chapter paper-conference post post-weblog webpage song broadcast" match="any">
         <text variable="title" quotes="true"/>
