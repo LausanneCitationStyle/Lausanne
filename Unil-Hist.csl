@@ -78,6 +78,7 @@
         <text macro="creator"/>
         <text macro="title"/>
         <text macro="scientific-editor"/>
+        <text macro="translator"/>
         <group delimiter=" ">
           <text macro="in"/>
           <group delimiter=", ">
@@ -249,7 +250,17 @@
       </name>
       <et-al font-style="italic"/>
     </names>
+    <!-- <label> for editor is «dir.» - here we need «éd.» -->
     <text value=" (éd.)"/>
+  </macro>
+  <macro name="translator">
+    <names variable="translator">
+      <name sort-separator=", " name-as-sort-order="all" et-al-min="3" et-al-use-first="1">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+      <et-al font-style="italic"/>
+      <label form="short" prefix="&#160;(" suffix=")"/>
+    </names>
   </macro>
   <macro name="in">
     <choose>

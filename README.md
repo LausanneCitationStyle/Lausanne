@@ -19,7 +19,7 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [x] supprimer l'indication de la collection
 -   [x] et al à partir de **3** auteurs
 -   [x] éditeurs scientifiques manquent : Rabelais
--   [ ] traducteurs manquent
+-   [x] traducteurs manquent
 -   [x] date originale indiquée différemment
 -   [x] ne pas différencier date originale et première édition
 -   [ ] **faut-il garder la virgule entre la date et la date originale?** (proposition: ne pas mettre de virgule)
