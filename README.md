@@ -32,7 +32,7 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [x] chapitres de livres, articles de revues, etc: pagination avec un seul «p.» (et pas «pp.»)
 -   [x] indication du numéro des revues
 -   [x] «in» sans double point pour les chapitres
--   [ ] prévoir cas avec 3 types d'«auteur»: auteur, auteur du livre, éditeur [exemple Vovelle in Louvet éd par Henri Coulet]
+-   [x] prévoir cas avec 3 types d'«auteur»: auteur, auteur du livre, éditeur [exemple Vovelle in Louvet éd par Henri Coulet]
 -   [x] ibid en italique
 -   [x] op. cit. sans date
 -   [x] ajouter le volume aussi pour les revues
