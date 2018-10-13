@@ -36,6 +36,8 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [x] ibid en italique
 -   [x] op. cit. sans date
 -   [x] ajouter le volume aussi pour les revues
--   [ ] vérifier ce qui se passe avec l'indication d'une DOI - se transforme-t-elle en lien?
--   [ ] URL et DOI des documents non-web seulement en bibliographie
--   [ ] URL sans date de consultation pour les documents non-web
+-   [x] vérifier ce qui se passe avec l'indication d'une DOI - se transforme-t-elle en lien?
+        **en tout cas pas avec LibreOffice; à ce propos, cf. aussi https://www.zotero.org/support/kb/doi_in_apa**
+-   [x] URL et DOI des documents non-web seulement en bibliographie
+-   [x] URL sans date de consultation pour les documents non-web
+        **remarque:** pour l'instant «non-web» revient dans le style à tous les types sauf «Page Web», «Billet de blog» et «Message de forum»

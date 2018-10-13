@@ -69,43 +69,43 @@
       <key variable="issued" sort="descending"/>
     </sort>
     <layout suffix=".">
-      <text macro="complete-reference"/>
+      <group delimiter=". ">
+        <text macro="complete-reference"/>
+        <text macro="url-non-web-documents"/>
+      </group>
     </layout>
   </bibliography>
   <macro name="complete-reference">
-    <group delimiter=". ">
-      <group delimiter=", ">
-        <text macro="creator"/>
-        <text macro="title"/>
-        <text macro="scientific-editor"/>
-        <text macro="translator"/>
-        <group delimiter=" ">
-          <text macro="in"/>
-          <group delimiter=", ">
-            <text macro="container-creator"/>
-            <text macro="container-information"/>
-            <text macro="journal-volume"/>
-            <text macro="volume"/>
-          </group>
+    <group delimiter=", ">
+      <text macro="creator"/>
+      <text macro="title"/>
+      <text macro="scientific-editor"/>
+      <text macro="translator"/>
+      <group delimiter=" ">
+        <text macro="in"/>
+        <group delimiter=", ">
+          <text macro="container-creator"/>
+          <text macro="container-information"/>
+          <text macro="journal-volume"/>
+          <text macro="volume"/>
         </group>
-        <text macro="type-description"/>
-        <text macro="alt-publisher"/>
-        <group delimiter="&#160;: ">
-          <text macro="place"/>
-          <text macro="publishing-house"/>
-        </group>
-        <group>
-          <text macro="date"/>
-          <text macro="edition"/>
-          <date variable="original-date" form="text" prefix=" [" suffix="]"/>
-        </group>
-        <text macro="artwork-description"/>
-        <text macro="archive-location"/>
-        <text macro="pages"/>
-        <text macro="number-of-volumes"/>
-        <text macro="url-web-documents-only"/>
       </group>
-      <text macro="url-non-web-documents"/>
+      <text macro="type-description"/>
+      <text macro="alt-publisher"/>
+      <group delimiter="&#160;: ">
+        <text macro="place"/>
+        <text macro="publishing-house"/>
+      </group>
+      <group>
+        <text macro="date"/>
+        <text macro="edition"/>
+        <date variable="original-date" form="text" prefix=" [" suffix="]"/>
+      </group>
+      <text macro="artwork-description"/>
+      <text macro="archive-location"/>
+      <text macro="pages"/>
+      <text macro="number-of-volumes"/>
+      <text macro="url-web-documents-only"/>
     </group>
   </macro>
   <macro name="subsequent-reference">
@@ -523,33 +523,25 @@
     <choose>
       <if type="webpage post post-weblog" match="none">
         <choose>
-          <if variable="DOI URL" match="any">
-            <group delimiter=" ">
-              <text term="online" text-case="capitalize-first" suffix=": "/>
-              <choose>
-                <if variable="DOI">
-                  <group delimiter=", ">
-                    <group delimiter="">
-                      <text value="&lt;"/>
-                      <text variable="DOI" prefix="https://doi.org/"/>
-                      <text value="&gt;"/>
-                    </group>
-                    <text macro="accessed"/>
-                  </group>
-                </if>
-                <else-if variable="URL">
-                  <text macro="url"/>
-                </else-if>
-              </choose>
+          <if variable="DOI">
+            <group delimiter=": ">
+              <text value="DOI"/>
+              <text variable="DOI"/>
             </group>
           </if>
+          <else-if variable="URL">
+            <group delimiter=" ">
+              <text term="online" text-case="capitalize-first" suffix=": "/>
+              <text variable="URL"/>
+            </group>
+          </else-if>
         </choose>
       </if>
     </choose>
   </macro>
   <macro name="url">
     <group delimiter=", ">
-      <text variable="URL" prefix="&lt;" suffix="&gt;"/>
+      <text variable="URL"/>
       <text macro="accessed"/>
     </group>
   </macro>
