@@ -150,7 +150,7 @@
       <if type="book thesis graphic" match="any">
         <text variable="title" font-style="italic"/>
       </if>
-      <else-if type="article                      article-magazine article-newspaper article-journal                      entry entry-dictionary entry-encyclopedia                      report chapter paper-conference                      post post-weblog webpage                      song broadcast" match="any">
+      <else-if type="article article-magazine article-newspaper article-journal entry entry-dictionary entry-encyclopedia report chapter paper-conference post post-weblog webpage song broadcast" match="any">
         <text variable="title" quotes="true"/>
       </else-if>
       <else-if type="motion_picture">
@@ -175,7 +175,7 @@
           <if type="book thesis graphic" match="any">
             <text variable="title" font-style="italic" form="short"/>
           </if>
-          <else-if type="article                          article-magazine article-newspaper article-journal                          entry entry-dictionary entry-encyclopedia                          report chapter paper-conference                          post post-weblog webpage                          song broadcast" match="any">
+          <else-if type="article article-magazine article-newspaper article-journal entry entry-dictionary entry-encyclopedia report chapter paper-conference post post-weblog webpage song broadcast" match="any">
             <text variable="title" quotes="true" form="short"/>
           </else-if>
           <else-if type="motion_picture">
@@ -208,7 +208,7 @@
           <name et-al-min="3" et-al-use-first="1"/>
         </names>
       </else-if>
-      <else-if type="report song broadcast motion_picture                      webpage post post-weblog" match="any">
+      <else-if type="report song broadcast motion_picture webpage post post-weblog" match="any">
         <!-- these types have either collection-title or container-title -->
         <text variable="collection-title" font-style="italic"/>
         <text variable="container-title" font-style="italic"/>
@@ -218,13 +218,13 @@
   <macro name="op-cit">
     <group font-style="italic" delimiter="&#160;" suffix=".">
       <choose>
-        <if type="article                   article-magazine article-newspaper article-journal                   entry entry-dictionary entry-encyclopedia                   chapter paper-conference                   post post-weblog" match="any">
+        <if type="article article-magazine article-newspaper article-journal entry entry-dictionary entry-encyclopedia chapter paper-conference post post-weblog" match="any">
           <text value="art."/>
         </if>
-        <else-if type="manuscript personal_communication interview                        report webpage" match="any">
+        <else-if type="manuscript personal_communication interview report webpage" match="any">
           <text value="doc."/>
         </else-if>
-        <else-if type="book thesis graphic                        motion_picture song broadcast" match="any">
+        <else-if type="book thesis graphic motion_picture song broadcast" match="any">
           <text value="op."/>
         </else-if>
       </choose>
@@ -253,7 +253,7 @@
   </macro>
   <macro name="in">
     <choose>
-      <if type="chapter paper-conference                 entry-encyclopedia entry-dictionary" match="any">
+      <if type="chapter paper-conference entry-encyclopedia entry-dictionary" match="any">
         <text term="in"/>
       </if>
     </choose>
@@ -277,10 +277,10 @@
   </macro>
   <macro name="container-information">
     <choose>
-      <if type="chapter paper-conference                 entry-encyclopedia entry-dictionary                 article-newspaper article-magazine article-journal" match="any">
+      <if type="chapter paper-conference entry-encyclopedia entry-dictionary article-newspaper article-magazine article-journal" match="any">
         <text variable="container-title" font-style="italic"/>
       </if>
-      <else-if type="report song broadcast motion_picture                      webpage post post-weblog" match="any">
+      <else-if type="report song broadcast motion_picture webpage post post-weblog" match="any">
         <group delimiter=", ">
           <text variable="genre"/>
           <!-- these types have either collection-title or container-title -->
@@ -361,7 +361,7 @@
   </macro>
   <macro name="alt-publisher">
     <choose>
-      <if type="book chapter                 thesis report                 paper-conference                 entry-dictionary entry-encyclopedia" match="none">
+      <if type="book chapter thesis report paper-conference entry-dictionary entry-encyclopedia" match="none">
         <!--
              label for songs,
              distributor for films,
@@ -373,7 +373,7 @@
   </macro>
   <macro name="edition">
     <choose>
-      <if type="book chapter                 entry-dictionary entry-encyclopedia" match="any">
+      <if type="book chapter entry-dictionary entry-encyclopedia" match="any">
         <choose>
           <if is-numeric="edition">
               <number variable="edition" vertical-align="sup"/>
@@ -397,7 +397,7 @@
   </macro>
   <macro name="publishing-house">
     <choose>
-      <if type="book chapter thesis report                 paper-conference                 entry-dictionary entry-encyclopedia" match="any">
+      <if type="book chapter thesis report paper-conference entry-dictionary entry-encyclopedia" match="any">
         <text variable="publisher"/>
       </if>
     </choose>
@@ -414,7 +414,7 @@
           </else>
         </choose>
       </if>
-      <else-if type="article-journal article-newspaper article-magazine                      graphic entry-encyclopedia entry-dictionary                      report speech interview                      manuscript personal_communication" match="any">
+      <else-if type="article-journal article-newspaper article-magazine graphic entry-encyclopedia entry-dictionary report speech interview manuscript personal_communication" match="any">
         <choose>
           <if variable="issued">
             <date variable="issued" form="numeric" date-parts="year-month-day"/>
