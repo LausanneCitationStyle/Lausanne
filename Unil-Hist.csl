@@ -98,8 +98,8 @@
         <group>
           <text macro="date"/>
           <text macro="edition"/>
+          <date variable="original-date" form="text" prefix=" [" suffix="]"/>
         </group>
-        <date variable="original-date" form="text" prefix="[" suffix="]"/>
         <text macro="artwork-description"/>
         <text macro="archive-location"/>
         <text macro="pages"/>

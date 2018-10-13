@@ -22,7 +22,7 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [ ] traducteurs manquent
 -   [x] date originale indiquée différemment
 -   [x] ne pas différencier date originale et première édition
--   [ ] **faut-il garder la virgule entre la date et la date originale?**
+-   [ ] **faut-il garder la virgule entre la date et la date originale?** (proposition: ne pas mettre de virgule)
 -   [x] édition indiquée différemment
 -   [ ] **que faire lorsque le champ édition contient des éléments non-numériques?** (proposition: ne rien afficher)
 -   [ ] casse des titres anglais : automatisable?
