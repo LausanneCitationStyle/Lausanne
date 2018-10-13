@@ -30,12 +30,12 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [x] changer «vol. 2 / 3»
 -   [x] «dir.» et pas «éd.»
 -   [x] chapitres de livres, articles de revues, etc: pagination avec un seul «p.» (et pas «pp.»)
--   [ ] indication du numéro des revues
+-   [x] indication du numéro des revues
 -   [x] «in» sans double point pour les chapitres
 -   [ ] prévoir cas avec 3 types d'«auteur»: auteur, auteur du livre, éditeur [exemple Vovelle in Louvet éd par Henri Coulet]
 -   [x] ibid en italique
 -   [x] op. cit. sans date
--   [ ] ajouter le volume aussi pour les revues
+-   [x] ajouter le volume aussi pour les revues
 -   [ ] vérifier ce qui se passe avec l'indication d'une DOI - se transforme-t-elle en lien?
 -   [ ] URL et DOI des documents non-web seulement en bibliographie
 -   [ ] URL sans date de consultation pour les documents non-web

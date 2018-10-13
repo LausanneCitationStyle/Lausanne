@@ -83,10 +83,8 @@
           <text macro="in"/>
           <group delimiter=", ">
             <text macro="container-creator"/>
-            <group delimiter=" ">
-              <text macro="container-information"/>
-              <text macro="journal-volume"/>
-            </group>
+            <text macro="container-information"/>
+            <text macro="journal-volume"/>
             <text macro="volume"/>
           </group>
         </group>
@@ -304,14 +302,24 @@
   <macro name="journal-volume">
     <choose>
       <if type="article-journal">
-        <group delimiter="&#160;">
-          <number variable="volume"/>
-          <number variable="issue" prefix="(" suffix=")"/>
+        <group delimiter=", ">
+          <group delimiter="&#160;">
+            <label variable="volume" form="short"/>
+            <number variable="volume"/>
+          </group>
+          <choose>
+            <if is-numeric="issue">
+              <group delimiter="&#160;">
+                <label variable="issue" form="short"/>
+                <number variable="issue"/>
+              </group>
+            </if>
+            <else>
+              <text variable="issue"/>
+            </else>
+          </choose>
         </group>
       </if>
-      <else-if type="report song broadcast" match="any">
-        <number variable="number"/>
-      </else-if>
     </choose>
   </macro>
   <macro name="volume">
