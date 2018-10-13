@@ -453,7 +453,7 @@
       </else-if>
       <else-if variable="number-of-volumes" match="none">
         <group delimiter="&#160;">
-          <text variable="number-of-pages"/>
+          <number variable="number-of-pages"/>
           <label variable="page" form="short"/>
         </group>
       </else-if>
