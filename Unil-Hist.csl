@@ -23,7 +23,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <category field="social_science"/>
-    <updated>2018-10-13T17:50:17+02:00</updated>
+    <updated>2018-10-15T11:43:36+02:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -87,7 +87,6 @@
           <text macro="container-creator"/>
           <text macro="container-information"/>
           <text macro="journal-volume"/>
-          <text macro="volume"/>
         </group>
       </group>
       <text macro="type-description"/>
@@ -103,6 +102,7 @@
       </group>
       <text macro="artwork-description"/>
       <text macro="archive-location"/>
+      <text macro="volume"/>
       <text macro="pages"/>
       <text macro="number-of-volumes"/>
       <text macro="url-web-documents-only"/>
@@ -329,16 +329,6 @@
       </if>
     </choose>
   </macro>
-  <macro name="volume">
-    <choose>
-      <if type="book chapter entry-encyclopedia entry-dictionary song motion_picture" match="any">
-        <group delimiter="&#160;">
-          <label variable="volume" form="short"/>
-          <number variable="volume"/>
-        </group>
-      </if>
-    </choose>
-  </macro>
   <macro name="type-description">
     <choose>
       <if type="manuscript thesis speech" match="any">
@@ -455,6 +445,16 @@
       </else>
     </choose>
   </macro>
+  <macro name="volume">
+    <choose>
+      <if type="book chapter entry-encyclopedia entry-dictionary song motion_picture" match="any">
+        <group delimiter="&#160;">
+          <label variable="volume" form="short"/>
+          <number variable="volume"/>
+        </group>
+      </if>
+    </choose>
+  </macro>
   <macro name="pages">
     <choose>
       <if variable="locator">
@@ -464,6 +464,12 @@
         <group delimiter="&#160;">
           <label variable="page" form="short"/>
           <text variable="page"/>
+        </group>
+      </else-if>
+      <else-if variable="volume">
+        <group delimiter="&#160;">
+          <number variable="number-of-pages"/>
+          <label variable="page" form="short"/>
         </group>
       </else-if>
       <else-if variable="number-of-volumes" match="none">
@@ -476,7 +482,7 @@
   </macro>
   <macro name="number-of-volumes">
     <choose>
-      <if variable="volume" match="none">
+      <if variable="volume locator" match="none">
         <group delimiter="&#160;">
           <number variable="number-of-volumes"/>
           <label variable="number-of-volumes" form="short"/>
