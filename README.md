@@ -41,3 +41,4 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [x] URL et DOI des documents non-web seulement en bibliographie
 -   [x] URL sans date de consultation pour les documents non-web
         **remarque:** pour l'instant «non-web» revient dans le style à tous les types sauf «Page Web», «Billet de blog» et «Message de forum»
+-   [ ] Modifier les métadonnées du style (référencer le style Infoclio et ses auteurs).
