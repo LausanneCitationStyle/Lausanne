@@ -8,6 +8,7 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   lieux d'éditions : d'accord de ne mettre que le premier?
 -   indication du volume pour les revues ajoutée
 -   Date originale entre crochets [1864], qu'il s'agisse d'un texte ancien ou de la première édition d'un ouvrage réédité
+-   Les noms sont en petites majuscules plutôt qu'en majuscules
 
 ## Modifications à apporter au style infoclio.ch
 
