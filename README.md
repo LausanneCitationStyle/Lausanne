@@ -23,9 +23,9 @@ Plan d'attaque - cf. aussi doc/notes.md
 -   [x] traducteurs manquent
 -   [x] date originale indiquée différemment
 -   [x] ne pas différencier date originale et première édition
--   [ ] **faut-il garder la virgule entre la date et la date originale?** (proposition: ne pas mettre de virgule)
+-   [x] ne pas afficher de virgule entre la date et la date originale (entre crochets)
 -   [x] édition indiquée différemment
--   [ ] **que faire lorsque le champ édition contient des éléments non-numériques?** (proposition: ne rien afficher)
+-   [x] ne rien afficher lorsque le champ édition contient des éléments non-numériques
 -   [x] casse des titres anglais : automatisable? **oui: fait pour les livres**
 -   [x] position du nombre de volumes
 -   [x] changer «vol. 2 / 3»
