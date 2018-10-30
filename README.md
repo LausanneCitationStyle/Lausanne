@@ -1,4 +1,4 @@
-# ;) Stylish Unil
+# Lausanne Citation Style
 
 Plan d'attaque - cf. aussi doc/notes.md
 
