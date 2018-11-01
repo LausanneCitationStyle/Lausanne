@@ -1,4 +1,5 @@
 # Lausanne Citation Style
+<img src="https://raw.githubusercontent.com/LausanneCitationStyle/Lausanne/master/images/LausanneCitationStyle.png" alt="Lausanne Citation Style" width="100" align="right"> 
 
 Nicolas Chachereau et Martin Grandjean, Université de Lausanne
 
