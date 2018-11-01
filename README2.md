@@ -7,11 +7,17 @@ Nicolas Chachereau et Martin Grandjean, Université de Lausanne
 
 ## Introduction
 
-Présentation du style
+Ce style bibliographique, adapté aux pratiques des départements d'histoire des universités suisses, a été développé pour les besoin de la [section d'histoire](https://www.unil.ch/hist/home.html) de l'[Université de Lausanne](https://www.unil.ch) sur la base d'un style développé pour [Infoclio](https://www.infoclio.ch/fr/style-de-citation-infoclioch-instructions-pour-zotero).
 
-Ce style bibliographique a été développé pour les besoin de la [section d'histoire](https://www.unil.ch/hist/home.html) de l'[Université de Lausanne](https://www.unil.ch) sur la base d'un style développé pour [Infoclio](https://www.infoclio.ch/fr/style-de-citation-infoclioch-instructions-pour-zotero).
+**Exemple de base "ouvrage"**
 
-Lien vers la doc biblio
+> NOM, Prénom, *Titre*, Lieu : Editeur, année, pages.
+
+**Exemple de base "article"**
+
+> NOM, Prénom, "Titre", *Publication*, volume, numéro, année, pages.
+
+* En savoir plus : [documentation du style]()
 
 ## Installer et utiliser le style
 
