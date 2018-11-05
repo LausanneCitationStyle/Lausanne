@@ -27,12 +27,15 @@ Le style est adapté aux pratiques des départements d'histoire des universités
 > KENNEY, Edward John, *The Classical Text: Aspects of Editing in the Age of the Printed Book*, London ; Berkeley : University of California Press, 1974, XI, 174 p.
 #### Réédition
 > BRAUDEL, Fernand, *La Méditerranée et le monde méditerranéen à l’époque de Philippe II*, Paris : A. Colin, 1979(4) [1957], 2 vol.
+Dans Zotero, indiquer "4" dans le champ "Edition" et "original date: 1957" dans le champ "Extra".
 #### Indication de la date de publication originale
 > MONTESQUIEU, Charles-Louis de Secondat de, *De l’Esprit des lois*, GOLDSCHMIDT, Victor (éd.), Paris : Garnier Flammarion, 1979 [1748], 2 vol.
+Dans Zotero, indiquer "original date: 1748" dans le champ "Extra".
 #### Indications manquantes
 > MIÉVILLE, Maurice de, *Aperçu de la vie de Georges-Charles-Louis de Miéville : 1799-1838*, [s.l.] : [s.n.], [s.d.], 7 p.
 #### Indications rétablies
 > FERRONE, Vincenzo et ROCHE, Daniel (dir.), *Le monde des Lumières*, [Paris] : Fayard, 1999, 637 p.
+Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 
 ### Articles
 
@@ -50,8 +53,9 @@ Le style est adapté aux pratiques des départements d'histoire des universités
 
 ### Cas particuliers
 
-#### Plublication s'étendant sur plusieurs années
-> Exemple
+#### Publication s'étendant sur plusieurs années
+Reconnaissant et simplifiant automatiquement tout ce qui a la forme d'une date dans le champ "année" (ce qui est très pratique lorsque le catalogue importe par ex. "juin 1976" ou "23-07-2003"), Zotero transformera "1973-1978" en "1973". S'il s'agit d'un ouvrage publié en plusieurs volumes sur plusieurs années, il faut remplacer le trait d'union "-" par un tiret bas "_".
+> 
 
 #### Plusieurs éditeurs
 > Exemple 
