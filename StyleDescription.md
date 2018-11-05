@@ -51,7 +51,33 @@ Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 #### Texte introductif
 > VOVELLE, Michel, « Préface », in LOUVET DE COUVRAY, Jean-Baptiste, *Mémoires*, COULET, Henri (éd.), Paris : Desjonquères, 1988 [1795], p. I-XXIV.
 
-### Cas particuliers
+### Formats particuliers
+
+#### Thèses
+> Exemple
+
+#### Articles d'encyclopédie
+> Exemple
+
+#### Littérature grise / rapports
+> Exemple
+
+#### Sources d'archives
+> Exemples
+
+#### Articles de journal
+> Exemple
+
+#### Site web et articles en ligne
+> Exemple
+
+#### Billets de blog
+> Exemple
+
+#### Autres
+Lettres, interviews, images, publications sur les réseaux sociaux, documents sonores et documents vidéo ont également leurs styles et leur modèle Zotero.
+
+### Cas nécessitant une action de la part de l'utilisateur de Zotero
 
 #### Publication s'étendant sur plusieurs années
 Reconnaissant et simplifiant automatiquement tout ce qui a la forme d'une date dans le champ "année" (ce qui est très pratique lorsque le catalogue importe par ex. "juin 1976" ou "23-07-2003"), Zotero transformera "1973-1978" en "1973". S'il s'agit d'un ouvrage publié en plusieurs volumes sur plusieurs années, il faut remplacer le trait d'union par un **tiret bas**. Zotero exportera donc une référence contenant les deux dates :
