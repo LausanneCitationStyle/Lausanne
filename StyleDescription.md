@@ -39,8 +39,8 @@ Le style est adapté aux pratiques des départements d'histoire des universités
 #### Article de revue
 > Exemple 
 
-#### Artile de revue en ligne
-COTTRET, Monique, « Du jansénisme au libéralisme. Itinéraires de quelques abbés du siècle », *Dix-huitième Siècle*, no 34, 2002, p. 53-66. DOI: 10.3406/dhs.2002.2462.
+#### Article de revue en ligne
+> COTTRET, Monique, « Du jansénisme au libéralisme. Itinéraires de quelques abbés du siècle », *Dix-huitième Siècle*, no 34, 2002, p. 53-66. DOI: 10.3406/dhs.2002.2462.
 
 #### Article/Chapitre dans un ouvrage collectif
 > VOET, Léon, « L’offre : diversification de la production, tirage, prix des livres. Le cas de l’Officina Plantiniana à Anvers (1555-1589) », in CAVACIOCCHI, Simonetta (dir.), *Produzione e commercio della carta e del libro secc. XIII-XVIII*, Firenze : Le Monnier, 1992, p. 565-582.
@@ -56,7 +56,11 @@ COTTRET, Monique, « Du jansénisme au libéralisme. Itinéraires de quelques ab
 #### Plusieurs éditeurs
 > Exemple 
 
-
+#### Corrections courantes après une importation depuis Renouvaud
+* Nom des auteurs qui contiennent des indications parasites (titres, "historien", etc.)
+* Statut des auteurs incorrect (auteurs et éditeurs parfois recensés comme "contributeurs")
+* Maison d'édition mal orthographiée ou tronquée ("AMichel" plutôt que "Albin Michel", par ex.)
+* Numéro de la collection apparaissant dans le champ "collection" plutôt que "numéro dans la collection"
 
 ## NOTES DE BAS DE PAGE
 
@@ -67,4 +71,4 @@ Exception : on n'affiche pas les URL des références accessibles en ligne, pour
 > Exemple 
 
 ### Par la suite
-
+Titres abbrégés 
