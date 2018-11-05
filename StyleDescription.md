@@ -54,8 +54,10 @@ Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 ### Cas particuliers
 
 #### Publication s'étendant sur plusieurs années
-Reconnaissant et simplifiant automatiquement tout ce qui a la forme d'une date dans le champ "année" (ce qui est très pratique lorsque le catalogue importe par ex. "juin 1976" ou "23-07-2003"), Zotero transformera "1973-1978" en "1973". S'il s'agit d'un ouvrage publié en plusieurs volumes sur plusieurs années, il faut remplacer le trait d'union "-" par un tiret bas "_".
-> 
+Reconnaissant et simplifiant automatiquement tout ce qui a la forme d'une date dans le champ "année" (ce qui est très pratique lorsque le catalogue importe par ex. "juin 1976" ou "23-07-2003"), Zotero transformera "1973-1978" en "1973". S'il s'agit d'un ouvrage publié en plusieurs volumes sur plusieurs années, il faut remplacer le trait d'union par un **tiret bas**. Zotero exportera donc une référence contenant les deux dates :
+> MICHELET, Jules, *Histoire de la Révolution française*, Paris : Chamerot, 1847_1853, 10 vol.
+
+Il suffit ensuite de corriger la référence dans le document/la bibliographie.
 
 #### Plusieurs éditeurs
 > Exemple 
