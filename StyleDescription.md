@@ -5,45 +5,58 @@ Il existe de nombreuses façons d’établir une bibliographie. Ce document a po
 
 Le style est adapté aux pratiques des départements d'histoire des universités suisses. Il dérive du [style développé par Infoclio](https://www.infoclio.ch/fr/style-de-citation-infoclioch-instructions-pour-zotero) en 2012 (mis à jour en 2013). Son principe est le suivant : après la mention du nom de l'auteur en petites majuscules, puis de son prénom, le titre de la publication est indiqué en italique, suivi du lieu, de l'éditeur et de la date de publication. Viennent ensuite les informations liées aux volumes et à la pagination. Dans le cas d'un article de revue ou d'un chapitre de livre, le titre est indiqué entre guillemets (l'italique étant réservé, dans ce cas, au titre de la revue ou du livre en question).
 
+> :warning: La syntaxe de Github ne permet pas de rendre parfaitement le style dans les exemples ci-dessous. Elements à convertir : majuscules -> petites majuscules / date édition entre parenthèses -> en exposant / "o" de numéro -> en exposant
+
 ## BIBLIOGRAPHIE
 
 ### Ouvrages
 
 #### Exemple de base
-> Exemple 
+> MORREN, Pierre, *La vie lausannoise au XVIIIe siècle: D’après Jean Henri Polier de Vernand, lieutenant baillival*, Genève : Labor et Fides, 1970, 622 p.
 #### Deux auteurs
-> Exemple 
+> FEBVRE, Lucien et MARTIN, Henri-Jean, *L’apparition du livre*, Paris : Albin Michel, 1958, XXIX, 557 p.
 #### Plus de deux auteurs
-> Exemple 
+> TULARD, Jean *et alii*, *Histoire et dictionnaire de la Révolution française: 1789-1799*, Paris : Robert Laffont, 1987, 1213 p.
 #### Ouvrage collectif avec mention du directeur
-> Exemple 
+> BIETENHOLZ, Peter G. (dir.), *Contemporaries of Erasmus: A Biographical Register of the Renaissance and Reformation*, Toronto : University of Toronto Press, 1985-1987, 3 vol.
 #### Texte avec éditeur scientifique
-> Exemple 
+> RABELAIS, François, *Pantagruel*, SAULNIER, Verdun-Louis (éd.), Paris : Droz, 1946, LIII, 255 p.
 #### Traduction
-> Exemple 
+> HABERMAS, Jürgen, *L’espace public, archéologie de la publicité comme dimension constitutive de la société bourgeoise*, BUHOT DE LAUNAY, Marc (trad.), Paris : Payot, 1978 [1962], 324 p.
 #### Plusieurs lieux d'édition
-> Exemple 
-#### Plusieurs éditeurs
-> Exemple 
+> KENNEY, Edward John, *The Classical Text: Aspects of Editing in the Age of the Printed Book*, London ; Berkeley : University of California Press, 1974, XI, 174 p.
 #### Réédition
-> Exemple 
+> BRAUDEL, Fernand, *La Méditerranée et le monde méditerranéen à l’époque de Philippe II*, Paris : A. Colin, 1979(4) [1957], 2 vol.
 #### Indication de la date de publication originale
-> Exemple 
+> MONTESQUIEU, Charles-Louis de Secondat de, *De l’Esprit des lois*, GOLDSCHMIDT, Victor (éd.), Paris : Garnier Flammarion, 1979 [1748], 2 vol.
 #### Indications manquantes
-> Exemple 
+> MIÉVILLE, Maurice de, *Aperçu de la vie de Georges-Charles-Louis de Miéville : 1799-1838*, [s.l.] : [s.n.], [s.d.], 7 p.
 #### Indications rétablies
-> Exemple 
+> FERRONE, Vincenzo et ROCHE, Daniel (dir.), *Le monde des Lumières*, [Paris] : Fayard, 1999, 637 p.
 
 ### Articles
 
 #### Article de revue
 > Exemple 
 
+#### Artile de revue en ligne
+COTTRET, Monique, « Du jansénisme au libéralisme. Itinéraires de quelques abbés du siècle », *Dix-huitième Siècle*, no 34, 2002, p. 53-66. DOI: 10.3406/dhs.2002.2462.
+
 #### Article/Chapitre dans un ouvrage collectif
-> Exemple 
+> VOET, Léon, « L’offre : diversification de la production, tirage, prix des livres. Le cas de l’Officina Plantiniana à Anvers (1555-1589) », in CAVACIOCCHI, Simonetta (dir.), *Produzione e commercio della carta e del libro secc. XIII-XVIII*, Firenze : Le Monnier, 1992, p. 565-582.
 
 #### Texte introductif
+> VOVELLE, Michel, « Préface », in LOUVET DE COUVRAY, Jean-Baptiste, *Mémoires*, COULET, Henri (éd.), Paris : Desjonquères, 1988 [1795], p. I-XXIV.
+
+### Cas particuliers
+
+#### Plublication s'étendant sur plusieurs années
+> Exemple
+
+#### Plusieurs éditeurs
 > Exemple 
+
+
 
 ## NOTES DE BAS DE PAGE
 
