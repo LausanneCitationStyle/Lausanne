@@ -21,7 +21,7 @@ En savoir plus : [Documentation complète du style]()
 
 ## Installer et utiliser le style
 
-L'installation du style "Lausanne" dans Zotero peut se faire sans quitter l'application. Il faut se rendre dans les "**Préférences**" du logiciel et cliquer sur le menu "**Citer**". Celui-ci affiche, dans le "Gestionnaire de styles", tous les styles bibliographiques déjà installés. Il faut donc cliquer sur "**Obtenir d'autres styles**"" (lien au-dessous de la liste) pour faire afficher le catalogue complet des (plus de 9000 !) styles développés pour Zotero. Dans ce catalogue, chercher "Lausanne" dans le moteur de recherche et **cliquer sur le style** pour l'installer.
+L'installation du style "Lausanne" dans Zotero peut se faire sans quitter l'application. Il faut se rendre dans les "**Préférences**" du logiciel et cliquer sur le menu "**Citer**". Celui-ci affiche, dans le "Gestionnaire de styles", tous les styles bibliographiques déjà installés. Il faut donc cliquer sur "**Obtenir d'autres styles**" (lien au-dessous de la liste) pour faire afficher le catalogue complet des (plus de 9000 !) styles développés pour Zotero. Dans ce catalogue, chercher "Lausanne" dans le moteur de recherche et **cliquer sur le style** pour l'installer.
 
 Le style s'utilise ensuite dans deux situations : 
 * Depuis Zotero lorsque l'on veut exporter une liste de références pour les coller à la fin d'un texte : une fois les références sélectionnées, un **clique-droit** ouvre une boîte de dialogue dans laquelle il faut sélectionner "**Créer une bibliographie à partir des éléments**". Dans le menu qui s'ouvre alors, choisir le style "Lausanne" dans la liste proposée. La bibliographie est ainsi copiée dans le presse-papier et peut être collée dans un document de traitement de texte.
