@@ -90,7 +90,7 @@ Il suffit ensuite de corriger la référence dans le document/la bibliographie d
 > MICHELET, Jules, *Histoire de la Révolution française*, Paris : Chamerot, 1847-1853, 10 vol.
 
 #### Plusieurs éditeurs et plusieurs lieux
-Le style affiche "[Lieu]:[Editeur]" quel que soit le contenu de ces champs et ne peut pas tenir compte d'une situation dans laquelle on trouverait deux éditeurs situés dans des lieux différents puisque les lieux seront affichés ensemble puis les éditeurs ensemble, "[Lieu1;Lieu2]:[Editeur1;Editeur2] tel que dans cet exemple :
+Le style affiche "[Lieu]:[Editeur]" quel que soit le contenu de ces champs et ne peut pas tenir compte d'une situation dans laquelle on trouverait deux éditeurs situés dans des lieux différents puisque les lieux seront affichés ensemble, ainsi que les éditeurs ("[Lieu1;Lieu2]:[Editeur1;Editeur2]") tel que dans cet exemple :
 > GILMONT, Jean-François, *Le livre & ses secrets*, Genève ; Louvain-la-Neuve : Droz ; Presses universitaires de Louvain, 2003, 440 p.
 
 Il s'agit donc de corriger cette référence dans le document/la bibliographie de cette façon :
