@@ -66,7 +66,7 @@ Une thèse publiée par un éditeur est citée comme un ouvrage :
 À noter que la version publiée d'une thèse n'a pas toujours le même contenu que la version soutenue, il ne s'agit donc pas de citer la version publiée à la place de la version originale mais de citer celle qui a été réellement utilisée.
 
 #### Articles d'encyclopédie
-> RICKLIN, Alois, « Neutralité », in *Dictionnaire Historique de la Suisse*, 09/11/2010, http://www.hls-dhs-dss.ch/textes/f/F16572.php.
+> RIKLIN, Alois, « Neutralité », in *Dictionnaire Historique de la Suisse*, 09/11/2010, http://www.hls-dhs-dss.ch/textes/f/F16572.php.
 
 #### Littérature grise / rapports
 > Exemple
