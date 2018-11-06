@@ -23,7 +23,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <category field="social_science"/>
-    <updated>2018-10-15T11:43:36+02:00</updated>
+    <updated>2018-11-06T10:07:41+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -420,7 +420,7 @@
   </macro>
   <macro name="date">
     <choose>
-      <if type="book chapter paper-conference thesis" match="any">
+      <if type="book chapter paper-conference thesis article-journal" match="any">
         <choose>
           <if variable="issued">
             <date variable="issued" form="numeric" date-parts="year"/>
@@ -430,7 +430,7 @@
           </else>
         </choose>
       </if>
-      <else-if type="article-journal article-newspaper article-magazine graphic entry-encyclopedia entry-dictionary report speech interview manuscript personal_communication" match="any">
+      <else-if type="article-newspaper article-magazine graphic entry-encyclopedia entry-dictionary report speech interview manuscript personal_communication" match="any">
         <choose>
           <if variable="issued">
             <date variable="issued" form="numeric" date-parts="year-month-day"/>
