@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="fr-FR" version="1.0" delimiter-precedes-last="never" delimiter-precedes-et-al="never" and="text">
   <info>
-    <title>Unil Hist</title>
-    <id>http://www.zotero.org/styles/Unil-Hist</id>
-    <link href="http://www.zotero.org/styles/Unil-Hist" rel="self"/>
+    <title>Lausanne</title>
+    <id>http://www.zotero.org/styles/Lausanne</id>
+    <link href="http://www.zotero.org/styles/Lausanne" rel="self"/>
+    <link href="http://www.zotero.org/styles/infoclio-fr-smallcaps" rel="template"/>
+    <link href="https://github.com/LausanneCitationStyle/Lausanne" rel="documentation"/>
     <author>
       <name>Nicolas Chachereau</name>
       <email>nicolas.chachereau@unil.ch</email>
     </author>
     <author>
-      <name>Enrico Natale</name>
-      <email>enrico.natale@infoclio.ch</email>
+      <name>Martin Grandjean</name>
+      <email>martin.grandjean@unil.ch</email>
     </author>
-    <author>
-      <name>Jan Baumann</name>
-      <email>jan.baumann@infoclio.ch</email>
-    </author>
-    <contributor>
-      <name>Jonas Schneider</name>
-      <email>jonas.schneider@uzh.ch</email>
-    </contributor>
     <category citation-format="note"/>
     <category field="history"/>
     <category field="social_science"/>
-    <updated>2018-11-06T10:08:40+01:00</updated>
+    <updated>2018-11-06T10:10:13+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
