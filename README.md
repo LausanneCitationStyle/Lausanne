@@ -19,7 +19,7 @@ Ce style bibliographique, adapté aux pratiques des départements d'histoire des
 
 > NOM, Prénom, "Titre", *Publication*, volume, numéro, année, pages.
 
-En savoir plus : [Documentation complète du style]()
+En savoir plus : [Documentation complète du style](https://github.com/LausanneCitationStyle/Lausanne/blob/master/documentation/StyleDescription.md)
 
 ## Installer et utiliser le style
 
@@ -29,4 +29,4 @@ Le style s'utilise ensuite dans deux situations :
 * Depuis Zotero lorsque l'on veut exporter une liste de références pour les coller à la fin d'un texte : une fois les références sélectionnées, un **clique-droit** ouvre une boîte de dialogue dans laquelle il faut sélectionner "**Créer une bibliographie à partir des éléments**". Dans le menu qui s'ouvre alors, choisir le style "Lausanne" dans la liste proposée. La bibliographie est ainsi copiée dans le presse-papier et peut être collée dans un document de traitement de texte.
 * Depuis le traitement de texte lorsque l'on veut insérer une note de bas de page : Dans le menu "**Zotero**", lorsque l'on clique sur "**Add/Edit Citation**", la liste des styles installés apparaît. Il suffit de choisir "Lausanne" et ce choix sera appliqué par défaut à toutes les références ajoutées par la suite dans le document. Une fois le style choisi, une fenêtre Zotero s'ouvre pour choisir la référence à inclure dans le document. On peut changer en tout temps le style bibliographique de tout le document en cliquant sur "**Document Preferences**".
 
-En savoir plus : [Tutoriel Zotero]()
+En savoir plus : [Tutoriel Zotero](https://github.com/LausanneCitationStyle/Lausanne/blob/master/documentation/ZoteroTutorial.md)
