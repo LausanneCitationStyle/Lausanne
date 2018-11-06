@@ -96,6 +96,7 @@ Il suffit ensuite de corriger la référence dans le document/la bibliographie.
 * Statut des auteurs incorrect (auteurs et éditeurs parfois recensés comme "contributeurs")
 * Maison d'édition mal orthographiée ou tronquée ("AMichel" plutôt que "Albin Michel", par ex.)
 * Numéro de la collection apparaissant dans le champ "collection" plutôt que "numéro dans la collection"
+* Nombre de pages parfois mal importé si la notice contient deux numérotations (une en chiffres romains pour les pages introductives et une en chiffres arabes pour le texte lui-même) : corriger "XVII+456" en "XVII, 456" ou simplement "456" si l'on ne souhaite pas afficher le total de pages introductives.
 
 ## NOTES DE BAS DE PAGE
 
