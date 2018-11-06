@@ -3,7 +3,7 @@
 
 Il existe de nombreuses façons d’établir une bibliographie. Ce document a pour objet de proposer un modèle cohérent, qui se décline sous la forme de listes bibliographiques et de notes de bas de page. Quel que soit le modèle adopté, il est indispensable de l’appliquer de manière systématique. 
 
-Le style est adapté aux pratiques des départements d'histoire des universités suisses. Il dérive du [style développé par Infoclio](https://www.infoclio.ch/fr/style-de-citation-infoclioch-instructions-pour-zotero) en 2012 (mis à jour en 2013). Son principe est le suivant : après la mention du nom de l'auteur en petites majuscules, puis de son prénom, le titre de la publication est indiqué en italique, suivi du lieu, de l'éditeur et de la date de publication. Viennent ensuite les informations liées aux volumes et à la pagination. Dans le cas d'un article de revue ou d'un chapitre de livre, le titre est indiqué entre guillemets (l'italique étant réservé, dans ce cas, au titre de la revue ou du livre en question).
+Le style est adapté aux pratiques des départements d'histoire des universités suisses. Il dérive du [style développé par Infoclio](https://www.infoclio.ch/fr/style-de-citation-infoclioch-instructions-pour-zotero) en 2012 (mis à jour en 2018). Son principe est le suivant : après la mention du nom de l'auteur en petites majuscules, puis de son prénom, le titre de la publication est indiqué en italique, suivi du lieu, de l'éditeur et de la date de publication. Viennent ensuite les informations liées aux volumes et à la pagination. Dans le cas d'un article de revue ou d'un chapitre de livre, le titre est indiqué entre guillemets (l'italique étant réservé, dans ce cas, au titre de la revue ou du livre en question).
 
 > :warning: La syntaxe de Github ne permet pas de rendre parfaitement le style dans les exemples ci-dessous. Elements à convertir : majuscules -> petites majuscules / date édition entre parenthèses -> en exposant / "o" de numéro -> en exposant
 
@@ -27,14 +27,17 @@ Le style est adapté aux pratiques des départements d'histoire des universités
 > KENNEY, Edward John, *The Classical Text: Aspects of Editing in the Age of the Printed Book*, London ; Berkeley : University of California Press, 1974, XI, 174 p.
 #### Réédition
 > BRAUDEL, Fernand, *La Méditerranée et le monde méditerranéen à l’époque de Philippe II*, Paris : A. Colin, 1979(4) [1957], 2 vol.
+
 Dans Zotero, indiquer "4" dans le champ "Edition" et "original date: 1957" dans le champ "Extra".
 #### Indication de la date de publication originale
 > MONTESQUIEU, Charles-Louis de Secondat de, *De l’Esprit des lois*, GOLDSCHMIDT, Victor (éd.), Paris : Garnier Flammarion, 1979 [1748], 2 vol.
+
 Dans Zotero, indiquer "original date: 1748" dans le champ "Extra".
 #### Indications manquantes
 > MIÉVILLE, Maurice de, *Aperçu de la vie de Georges-Charles-Louis de Miéville : 1799-1838*, [s.l.] : [s.n.], [s.d.], 7 p.
 #### Indications rétablies
 > FERRONE, Vincenzo et ROCHE, Daniel (dir.), *Le monde des Lumières*, [Paris] : Fayard, 1999, 637 p.
+
 Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 
 ### Articles
