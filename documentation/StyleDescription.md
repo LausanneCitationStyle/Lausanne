@@ -86,14 +86,15 @@ Lettres, interviews, images, publications sur les réseaux sociaux, documents so
 Reconnaissant et simplifiant automatiquement tout ce qui a la forme d'une date dans le champ "année" (ce qui est très pratique lorsque le catalogue importe par ex. "juin 1976" ou "23-07-2003"), Zotero transformera "1973-1978" en "1973". S'il s'agit d'un ouvrage publié en plusieurs volumes sur plusieurs années, il faut remplacer le trait d'union par un **tiret bas**. Zotero exportera donc une référence contenant les deux dates :
 > MICHELET, Jules, *Histoire de la Révolution française*, Paris : Chamerot, 1847_1853, 10 vol.
 
-Il suffit ensuite de corriger la référence dans le document/la bibliographie.
+Il suffit ensuite de corriger la référence dans le document/la bibliographie de cette façon :
+> MICHELET, Jules, *Histoire de la Révolution française*, Paris : Chamerot, 1847-1853, 10 vol.
 
 #### Plusieurs éditeurs et plusieurs lieux
 Le style affiche "[Lieu]:[Editeur]" quel que soit le contenu de ces champs et ne peut pas tenir compte d'une situation dans laquelle on trouverait deux éditeurs situés dans des lieux différents puisque les lieux seront affichés ensemble puis les éditeurs ensemble, "[Lieu1;Lieu2]:[Editeur1;Editeur2] tel que dans cet exemple :
 > GILMONT, Jean-François, *Le livre & ses secrets*, Genève ; Louvain-la-Neuve : Droz ; Presses universitaires de Louvain, 2003, 440 p.
 
 Il s'agit donc de corriger cette référence dans le document/la bibliographie de cette façon :
->> GILMONT, Jean-François, *Le livre & ses secrets*, Genève : Droz ; Louvain-la-Neuve : Presses universitaires de Louvain, 2003, 440 p.
+> GILMONT, Jean-François, *Le livre & ses secrets*, Genève : Droz ; Louvain-la-Neuve : Presses universitaires de Louvain, 2003, 440 p.
 
 Une publication ayant plusieurs éditeurs mais le même lieu ou à l'inverse un seul éditeur et plusieurs lieux ne pose pas de problème puisque "[Lieu]:[Editeur1;Editeur2]" ou "[Lieu1;Lieu2]:[Editeur]" (très fréquente) ne créent pas de malentendu.
 
