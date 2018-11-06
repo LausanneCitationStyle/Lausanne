@@ -57,10 +57,16 @@ Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 ### Formats particuliers
 
 #### Thèses
-> Exemple
+> VALLOTTON, François, *La naissance du métier d'éditeur en Suisse romande 1880-1920*, Thèse de doctorat, Lausanne : Université de Lausanne, 2000.
+
+Une thèse publiée par un éditeur est citée comme un ouvrage :
+
+> VALLOTTON, François, *L'édition romande et ses acteurs : 1850-1920*, Genève : Slatkine, 2001, 477 p.
+
+À noter que la version publiée d'une thèse n'a pas toujours le même contenu que la version soutenue, il ne s'agit donc pas de citer la version publiée à la place de la version originale mais de citer celle qui a été réellement utilisée.
 
 #### Articles d'encyclopédie
-> Exemple
+> RICKLIN, Alois, « Neutralité », in *Dictionnaire Historique de la Suisse*, 09/11/2010, http://www.hls-dhs-dss.ch/textes/f/F16572.php.
 
 #### Littérature grise / rapports
 > Exemple
