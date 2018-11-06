@@ -23,7 +23,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <category field="social_science"/>
-    <updated>2018-11-06T10:07:41+01:00</updated>
+    <updated>2018-11-06T10:08:40+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -40,6 +40,7 @@
       <term name="letter">courrier</term>
       <term name="number-of-volumes" form="short">vol.</term>
       <term name="et-al">et alii</term>
+      <term name="issue" form="short">nᵒ</term>
     </terms>
   </locale>
   <citation>
