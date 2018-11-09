@@ -64,7 +64,7 @@
       <key variable="issued" sort="descending"/>
     </sort>
     <layout suffix=".">
-      <group delimiter=". ">
+      <group delimiter=", ">
         <text macro="complete-reference"/>
         <text macro="url-non-web-documents"/>
       </group>
@@ -523,27 +523,28 @@
   <macro name="url-non-web-documents">
     <choose>
       <if type="webpage post post-weblog" match="none">
-        <choose>
-          <if variable="DOI">
-            <group delimiter=": ">
-              <text value="DOI"/>
-              <text variable="DOI"/>
-            </group>
-          </if>
-          <else-if variable="URL">
-            <group delimiter=" ">
-              <text term="online" text-case="capitalize-first" suffix=": "/>
-              <text variable="URL"/>
-            </group>
-          </else-if>
-        </choose>
+        <text macro="url"/>
       </if>
     </choose>
   </macro>
   <macro name="url">
     <group delimiter=", ">
-      <text variable="URL"/>
-      <text macro="accessed"/>
+      <choose>
+        <if variable="DOI">
+          <group delimiter=": ">
+            <text value="DOI"/>
+            <text variable="DOI"/>
+          </group>
+        </if>
+        <else-if variable="URL">
+          <text variable="URL"/>
+        </else-if>
+      </choose>
+      <choose>
+        <if type="webpage post post-weblog" match="any">
+          <text macro="accessed"/>
+        </if>
+      </choose>
     </group>
   </macro>
   <macro name="accessed">
