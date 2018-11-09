@@ -12,30 +12,63 @@ Le style est adapté aux pratiques des départements d'histoire des universités
 ### Ouvrages
 
 #### Exemple de base
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > MORREN, Pierre, *La vie lausannoise au XVIIIe siècle: D’après Jean Henri Polier de Vernand, lieutenant baillival*, Genève : Labor et Fides, 1970, 622 p.
 #### Deux auteurs
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > FEBVRE, Lucien et MARTIN, Henri-Jean, *L’apparition du livre*, Paris : Albin Michel, 1958, XXIX, 557 p.
 #### Plus de deux auteurs
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > TULARD, Jean *et alii*, *Histoire et dictionnaire de la Révolution française: 1789-1799*, Paris : Robert Laffont, 1987, 1213 p.
 #### Ouvrage collectif avec mention du directeur
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > BIETENHOLZ, Peter G. (dir.), *Contemporaries of Erasmus: A Biographical Register of the Renaissance and Reformation*, Toronto : University of Toronto Press, 1985-1987, 3 vol.
 #### Texte avec éditeur scientifique
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > RABELAIS, François, *Pantagruel*, SAULNIER, Verdun-Louis (éd.), Paris : Droz, 1946, LIII, 255 p.
 #### Traduction
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > HABERMAS, Jürgen, *L’espace public, archéologie de la publicité comme dimension constitutive de la société bourgeoise*, BUHOT DE LAUNAY, Marc (trad.), Paris : Payot, 1978 [1962], 324 p.
 #### Plusieurs lieux d'édition
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > KENNEY, Edward John, *The Classical Text: Aspects of Editing in the Age of the Printed Book*, London ; Berkeley : University of California Press, 1974, XI, 174 p.
 #### Réédition
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > BRAUDEL, Fernand, *La Méditerranée et le monde méditerranéen à l’époque de Philippe II*, Paris : A. Colin, 1979(4) [1957], 2 vol.
 
 Dans Zotero, indiquer "4" dans le champ "Edition" et "original date: 1957" dans le champ "Extra".
 #### Indication de la date de publication originale
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > MONTESQUIEU, Charles-Louis de Secondat de, *De l’Esprit des lois*, GOLDSCHMIDT, Victor (éd.), Paris : Garnier Flammarion, 1979 [1748], 2 vol.
 
 Dans Zotero, indiquer "original date: 1748" dans le champ "Extra".
 #### Indications manquantes
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > MIÉVILLE, Maurice de, *Aperçu de la vie de Georges-Charles-Louis de Miéville : 1799-1838*, [s.l.] : [s.n.], [s.d.], 7 p.
 #### Indications rétablies
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > FERRONE, Vincenzo et ROCHE, Daniel (dir.), *Le monde des Lumières*, [Paris] : Fayard, 1999, 637 p.
 
 Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
@@ -43,44 +76,79 @@ Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 ### Articles
 
 #### Article de revue
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-journalArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right">
+
 > Exemple 
 
 #### Article de revue en ligne
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-journalArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right">
+
 > COTTRET, Monique, « Du jansénisme au libéralisme. Itinéraires de quelques abbés du siècle », *Dix-huitième Siècle*, no 34, 2002, p. 53-66. DOI: 10.3406/dhs.2002.2462.
 
 #### Article/Chapitre dans un ouvrage collectif
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-bookSection%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > VOET, Léon, « L’offre : diversification de la production, tirage, prix des livres. Le cas de l’Officina Plantiniana à Anvers (1555-1589) », in CAVACIOCCHI, Simonetta (dir.), *Produzione e commercio della carta e del libro secc. XIII-XVIII*, Firenze : Le Monnier, 1992, p. 565-582.
 
 #### Texte introductif
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-bookSection%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > VOVELLE, Michel, « Préface », in LOUVET DE COUVRAY, Jean-Baptiste, *Mémoires*, COULET, Henri (éd.), Paris : Desjonquères, 1988 [1795], p. I-XXIV.
 
 ### Formats particuliers
 
 #### Thèses
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-thesis%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > VALLOTTON, François, *La naissance du métier d'éditeur en Suisse romande 1880-1920*, Thèse de doctorat, Lausanne : Université de Lausanne, 2000.
 
 Une thèse publiée par un éditeur est citée comme un ouvrage :
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-book%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
 
 > VALLOTTON, François, *L'édition romande et ses acteurs : 1850-1920*, Genève : Slatkine, 2001, 477 p.
 
 À noter que la version publiée d'une thèse n'a pas toujours le même contenu que la version soutenue, il ne s'agit donc pas de citer la version publiée à la place de la version originale mais de citer celle qui a été réellement utilisée.
 
 #### Articles d'encyclopédie
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-encyclopediaArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > RIKLIN, Alois, « Neutralité », in *Dictionnaire Historique de la Suisse*, 09/11/2010, http://www.hls-dhs-dss.ch/textes/f/F16572.php.
 
 #### Littérature grise / rapports
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-report%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > Exemple
 
 #### Sources d'archives
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-manuscript%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > Exemples
 
 #### Articles de journal
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-newspaperArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > Exemple
 
 #### Site web et articles en ligne
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-webpage%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > Exemple
 
 #### Billets de blog
+
+<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-blogPost%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
+
 > Exemple
 
 #### Autres
