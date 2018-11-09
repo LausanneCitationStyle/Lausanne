@@ -17,7 +17,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <category field="social_science"/>
-    <updated>2018-11-09T17:17:22+01:00</updated>
+    <updated>2018-11-09T17:26:27+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -72,6 +72,7 @@
   </bibliography>
   <macro name="complete-reference">
     <group delimiter=", ">
+      <text macro="archive-location"/>
       <text macro="creator"/>
       <text macro="title"/>
       <text macro="scientific-editor"/>
@@ -96,7 +97,6 @@
         <date variable="original-date" form="text" prefix=" [" suffix="]"/>
       </group>
       <text macro="artwork-description"/>
-      <text macro="archive-location"/>
       <text macro="volume"/>
       <text macro="pages"/>
       <text macro="number-of-volumes"/>
@@ -508,12 +508,16 @@
   </macro>
   <macro name="archive-location">
     <choose>
-      <if variable="archive">
-        <group delimiter=", ">
-          <text variable="archive"/>
-          <text variable="archive_location"/>
-          <text variable="call-number" prefix="Cote: "/>
-        </group>
+      <if type="manuscript personal_communication">
+        <choose>
+          <if variable="archive">
+            <group delimiter=", ">
+              <text variable="archive"/>
+              <text variable="archive_location"/>
+              <text variable="call-number" prefix="Cote: "/>
+            </group>
+          </if>
+        </choose>
       </if>
     </choose>
   </macro>
