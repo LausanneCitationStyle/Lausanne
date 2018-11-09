@@ -293,7 +293,11 @@
       </if>
       <else-if type="report song broadcast motion_picture webpage post post-weblog" match="any">
         <group delimiter=", ">
-          <text variable="genre"/>
+          <choose>
+            <if type="webpage post post-weblog" match="none">
+              <text variable="genre"/>
+            </if>
+          </choose>
           <!-- these types have either collection-title or container-title -->
           <text variable="collection-title" font-style="italic"/>
           <text variable="container-title" font-style="italic"/>
