@@ -79,13 +79,13 @@ Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-journalArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right">
 
-> COUTAZ, Gilbert, « L'histoire du sport du point de vue des archives », *Revue historique vaudoise*, 116, 2008, p. 13-23.
+> COUTAZ, Gilbert, « L'histoire du sport du point de vue des archives », *Revue historique vaudoise*, nᵒ 116, 2008, p. 13-23.
 
 #### Article de revue en ligne
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-journalArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right">
 
-> Exemple
+> SOUGY, Nadège, « Les montres de Genève au XIXe siècle. La fabrique des qualités », *Revue d’histoire moderne & contemporaine*, vol. 65, nᵒ 1, 2018, p. 7‑28, DOI: 10.3917/rhmc.651.0007.
 
 Dans les préférence de Zotero (onglet "Citer"), cocher "inclure les adresses URL" si l'on souhaite que le lien apparaisse à la suite de la référence.
 
