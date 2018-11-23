@@ -2,8 +2,8 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="fr-FR" version="1.0" delimiter-precedes-last="never" delimiter-precedes-et-al="never" and="text">
   <info>
     <title>Lausanne</title>
-    <id>http://www.zotero.org/styles/Lausanne</id>
-    <link href="http://www.zotero.org/styles/Lausanne" rel="self"/>
+    <id>http://www.zotero.org/styles/lausanne</id>
+    <link href="http://www.zotero.org/styles/lausanne" rel="self"/>
     <link href="http://www.zotero.org/styles/infoclio-fr-smallcaps" rel="template"/>
     <link href="https://github.com/LausanneCitationStyle/Lausanne" rel="documentation"/>
     <author>
@@ -17,7 +17,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <category field="social_science"/>
-    <updated>2018-11-09T17:26:27+01:00</updated>
+    <updated>2018-11-23T15:33:57+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
