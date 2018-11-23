@@ -85,7 +85,7 @@ Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-journalArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right">
 
-> COTTRET, Monique, « Du jansénisme au libéralisme. Itinéraires de quelques abbés du siècle », *Dix-huitième Siècle*, no 34, 2002, p. 53-66. DOI: 10.3406/dhs.2002.2462.
+> Exemple
 
 #### Article/Chapitre dans un ouvrage collectif
 
