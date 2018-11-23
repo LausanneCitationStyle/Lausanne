@@ -79,7 +79,7 @@ Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-journalArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right">
 
-> Exemple 
+> COUTAZ, Gilbert, « L'histoire du sport du point de vue des archives », *Revue historique vaudoise*, 116, 2008, p. 13-23.
 
 #### Article de revue en ligne
 
@@ -105,7 +105,7 @@ Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-thesis%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
 
-> VALLOTTON, François, *La naissance du métier d'éditeur en Suisse romande 1880-1920*, Thèse de doctorat, Lausanne : Université de Lausanne, 2000.
+> GRANDJEAN, Martin, *Les réseaux de la coopération intellectuelle. La Société des Nations comme actrice des échanges scientifiques et culturels dans l'entre-deux-guerres*, Thèse de doctorat, Lausanne : Université de Lausanne, 2018, 600 p.
 
 Une thèse publiée par un éditeur est citée comme un ouvrage :
 
@@ -127,12 +127,6 @@ Une thèse publiée par un éditeur est citée comme un ouvrage :
 
 > Exemple
 
-#### Sources d'archives
-
-<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-manuscript%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
-
-> Exemples
-
 #### Articles de journal
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-newspaperArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
@@ -152,7 +146,7 @@ Une thèse publiée par un éditeur est citée comme un ouvrage :
 > Exemple
 
 #### Autres
-Lettres, interviews, images, publications sur les réseaux sociaux, documents sonores et documents vidéo ont également leurs styles et leur modèle Zotero.
+Lettres, interviews, archives, images, publications sur les réseaux sociaux, documents sonores et documents vidéo ont également leurs styles et leur modèle Zotero.
 
 ### Cas nécessitant une action de la part de l'utilisateur de Zotero
 
