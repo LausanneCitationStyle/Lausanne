@@ -87,6 +87,8 @@ Dans Zotero, indiquer "[Paris]" dans le champ "Lieu".
 
 > Exemple
 
+Dans les préférence de Zotero (onglet "Citer"), cocher "inclure les adresses URL" si l'on souhaite que le lien apparaisse à la suite de la référence.
+
 #### Article/Chapitre dans un ouvrage collectif
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-bookSection%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
