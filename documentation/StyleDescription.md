@@ -5,7 +5,7 @@ Il existe de nombreuses façons d’établir une bibliographie. Ce document a po
 
 Le style est adapté aux pratiques des départements d'histoire des universités suisses. Il dérive du [style développé par Infoclio](https://www.infoclio.ch/fr/style-de-citation-infoclioch-instructions-pour-zotero) en 2012 (mis à jour en 2018). Son principe est le suivant : après la mention du nom de l'auteur en petites majuscules, puis de son prénom, le titre de la publication est indiqué en italique, suivi du lieu, de l'éditeur et de la date de publication. Viennent ensuite les informations liées aux volumes et à la pagination. Dans le cas d'un article de revue ou d'un chapitre de livre, le titre est indiqué entre guillemets (l'italique étant réservé, dans ce cas, au titre de la revue ou du livre en question).
 
-> :warning: La syntaxe de Github ne permet pas de rendre parfaitement le style dans les exemples ci-dessous. Elements à convertir : majuscules -> petites majuscules / date édition entre parenthèses -> en exposant / "o" de numéro -> en exposant
+> :warning: La syntaxe de Github ne permet pas de rendre parfaitement le style dans les exemples ci-dessous. Elements à convertir : majuscules -> petites majuscules / date édition entre parenthèses -> en exposant / "o" de numéro -> en exposant / guillemets français.
 
 ## BIBLIOGRAPHIE
 
@@ -101,7 +101,7 @@ Dans les préférence de Zotero (onglet "Citer"), cocher "inclure les adresses U
 
 > VOVELLE, Michel, « Préface », in LOUVET DE COUVRAY, Jean-Baptiste, *Mémoires*, COULET, Henri (éd.), Paris : Desjonquères, 1988 [1795], p. I-XXIV.
 
-### Formats particuliers
+### Autres formats
 
 #### Thèses
 
@@ -123,34 +123,28 @@ Une thèse publiée par un éditeur est citée comme un ouvrage :
 
 > RIKLIN, Alois, « Neutralité », in *Dictionnaire Historique de la Suisse*, 09/11/2010, http://www.hls-dhs-dss.ch/textes/f/F16572.php.
 
-#### Littérature grise / rapports
-
-<img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-report%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
-
-> Exemple
-
 #### Articles de journal
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-newspaperArticle%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
 
-> Exemple
+> B[ONNARD], Alb[ert], « Jaurès assassiné », Journal de Genève, 02.08.1914, p. 1.
 
 #### Site web et articles en ligne
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-webpage%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
 
-> Exemple
+> « Bibliographies littéraires », *Bibliothèque nationale suisse*, [s.d.], https://www.nb.admin.ch/snl/fr/home/portrait/als/bibliographies-litteraires.html, consulté le 12.10.2018.
 
 #### Billets de blog
 
 <img src="https://github.com/LausanneCitationStyle/Lausanne/blob/master/images/icons/treeitem-blogPost%402x.png" alt="Lausanne Citation Style" width="20" align="right"> 
 
-> Exemple
+> CLAVERT, Frédéric, « Qu’est-ce qu’« écrire » en histoire à l’ère numérique ? », *L’histoire contemporaine à l’ère numérique*, 21.03.2018, https://histnum.hypotheses.org/2769, consulté le 12.10.2018.
 
 #### Autres
-Lettres, interviews, archives, images, publications sur les réseaux sociaux, documents sonores et documents vidéo ont également leurs styles et leur modèle Zotero.
+Lettres, interviews, rapports, archives, images, publications sur les réseaux sociaux, documents sonores et documents vidéo ont également leurs styles et leur modèle Zotero.
 
-### Cas nécessitant une action de la part de l'utilisateur de Zotero
+### Cas particuliers
 
 #### Publication s'étendant sur plusieurs années
 Reconnaissant et simplifiant automatiquement tout ce qui a la forme d'une date dans le champ "année" (ce qui est très pratique lorsque le catalogue importe par ex. "juin 1976" ou "23-07-2003"), Zotero transformera "1973-1978" en "1973". S'il s'agit d'un ouvrage publié en plusieurs volumes sur plusieurs années, il faut remplacer le trait d'union par un **tiret bas**. Zotero exportera donc une référence contenant les deux dates :
@@ -158,6 +152,11 @@ Reconnaissant et simplifiant automatiquement tout ce qui a la forme d'une date d
 
 Il suffit ensuite de corriger la référence dans le document/la bibliographie de cette façon :
 > MICHELET, Jules, *Histoire de la Révolution française*, Paris : Chamerot, 1847-1853, 10 vol.
+
+#### Indication de la collection
+> LEMERCIER, Claire et ZALC, Claire, *Méthodes quantitatives pour l’historien*, Paris : La Découverte, 2008, 120 p., (coll. Repères ; n° 507).
+
+Par défaut, le style Zotero n’affiche pas le nom de la collection, qui peut être rajouté à la main.
 
 #### Plusieurs éditeurs et plusieurs lieux
 Le style affiche "[Lieu]:[Editeur]" quel que soit le contenu de ces champs et ne peut pas tenir compte d'une situation dans laquelle on trouverait deux éditeurs situés dans des lieux différents puisque les lieux seront affichés ensemble, ainsi que les éditeurs ("[Lieu1;Lieu2]:[Editeur1;Editeur2]") tel que dans cet exemple :
@@ -179,9 +178,34 @@ Une publication ayant plusieurs éditeurs mais le même lieu ou à l'inverse un 
 
 ### Première occurrence
 Toute référence (source, monographie ou article) mentionnée pour la première fois en note de bas de page figure sous sa forme complète, suivie de la page ou des pages (p.) auxquelles on se réfère. On met un point à la fin de cette référence.
-Exception : on n'affiche pas les URL des références accessibles en ligne, pour éviter de surcharger les notes de bas de page avec de longs hyperliens.
+Exception : on n’affiche pas les URL/DOI des références accessibles en ligne, pour éviter de surcharger les notes de bas de page avec de longs hyperliens.
 
-> Exemple 
+#### Première occurrence (ouvrage)
+> CHARLE, Christophe, *Les intellectuels en Europe au XIXe siècle, essai d’histoire comparée*, Paris : Seuil, 1999, p. 246-248.
+
+#### Première occurrence (article)
+> REINBOTHE, Roswitha, « L’exclusion des scientifiques allemands et de la langue allemande des congrès scientifiques internationaux après la Première Guerre mondiale », *Revue germanique internationale*, n° 12, 2010, p. 194 196.
 
 ### Par la suite
-Titres abbrégés 
+Une référence déjà citée est indiquée sous une forme abrégée aisément identifiable (titre court, pas de prénom, de lieu ni d’éditeur), à laquelle on ajoute le numéro de la page ou des pages auxquelles on se réfère. 
+
+#### Nouvelle occurrence (ouvrage)
+> CHARLE, *Les intellectuels en Europe*, *op. cit.*, p. 271.
+
+#### Nouvelle occurrence (article)
+> REINBOTHE, Roswitha, « L’exclusion des scientifiques allemands », *art. cit.*, p. 197-201.
+
+#### Quand des références identiques se succèdent
+Si l’on se réfère exactement à la même référence que la précédente, on note simplement
+> *Ibid.*
+S’il s’agit de la même publication mais que l’on se réfère à une page différente, on spécifie celle-ci
+> *Ibid.*, p. 221.
+
+Si les notes de bas de page sont insérées par Zotero, celui-ci prend automatiquement en compte leur contexte et simplifie lui-même la référence en op. cit. si la référence a déjà été utilisée plus haut ou Ibid. si elle précède directement la note en question. Si le document est réorganisé après coup, le bouton « rafraîchir » permet de s’assurer que la première citation contient toujours la référence complète puis les suivantes des versions abrégées qui conviennent au contexte.
+À noter également que les notices Zotero proposent un champ « Titre abrégé » : à utiliser pour gagner du temps en particulier lorsqu’une référence est souvent utilisée.
+
+#### Quand on renvoie successivement au même auteur
+Lorsque l’on fait référence plusieurs fois de suite au même auteur, pour des ouvrages ou articles différents, on peut se contenter de remplacer nom et prénom par *Idem* (*Id.*) s’il s’agit d’un homme ou *Eadem* (*Ead.*) s’il s’agit d’une femme.
+
+Dans Zotero, cette fonctionnalité n’est pas disponible puisque le logiciel ne peut être sûr que deux auteurs portant 
+
