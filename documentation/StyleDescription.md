@@ -198,6 +198,7 @@ Une référence déjà citée est indiquée sous une forme abrégée aisément i
 #### Quand des références identiques se succèdent
 Si l’on se réfère exactement à la même référence que la précédente, on note simplement
 > *Ibid.*
+
 S’il s’agit de la même publication mais que l’on se réfère à une page différente, on spécifie celle-ci
 > *Ibid.*, p. 221.
 
