@@ -18,7 +18,7 @@ Ce style bibliographique, adapté aux pratiques des départements d'histoire des
 
 > NOM, Prénom, "Titre", *Publication*, volume, numéro, année, pages.
 
-En savoir plus : [Documentation complète du style](https://github.com/LausanneCitationStyle/Lausanne/blob/master/documentation/StyleDescription.md)
+En savoir plus : [Documentation complète du style](https://github.com/LausanneCitationStyle/Lausanne/blob/master/documentation/Guide_Bibliographique_UNIL_HIST.pdf)
 
 ## Installer et utiliser le style
 
