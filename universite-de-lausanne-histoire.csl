@@ -17,7 +17,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <category field="social_science"/>
-    <updated>2018-11-23T15:33:57+01:00</updated>
+    <updated>2019-01-14T07:45:58+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -35,6 +35,7 @@
       <term name="number-of-volumes" form="short">vol.</term>
       <term name="et-al">et alii</term>
       <term name="issue" form="short">nᵒ</term>
+      <term name="no date" form="short">s.d.</term>
     </terms>
   </locale>
   <citation>
@@ -425,7 +426,7 @@
             <date variable="issued" form="numeric" date-parts="year"/>
           </if>
           <else>
-            <text term="no date" form="short"/>
+            <text term="no date" form="short" prefix=" [" suffix="]"/>
           </else>
         </choose>
       </if>
@@ -435,7 +436,7 @@
             <date variable="issued" form="numeric" date-parts="year-month-day"/>
           </if>
           <else>
-            <text term="no date" form="short"/>
+            <text term="no date" form="short" prefix=" [" suffix="]"/>
           </else>
         </choose>
       </else-if>
