@@ -12,11 +12,11 @@ Ce style bibliographique, adapté aux pratiques des départements d'histoire des
 
 **Exemple de base "ouvrage"**
 
-> NOM, Prénom, *Titre*, Lieu : Editeur, année, pages.
+> NOM Prénom, *Titre*, Lieu : Editeur, année, pages.
 
 **Exemple de base "article"**
 
-> NOM, Prénom, "Titre", *Publication*, volume, numéro, année, pages.
+> NOM Prénom, "Titre", *Publication*, volume, numéro, année, pages.
 
 En savoir plus : [Documentation complète du style](https://lausannecitationstyle.github.io/support/)
 
